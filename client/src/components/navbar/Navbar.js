@@ -15,8 +15,28 @@ const Navbar = () => {
             <li>
               <Link to={"/"} className="navbar-link">Home</Link>
             </li>
-            <li>
-              <Link to={"/"} className="navbar-link">Miscellaneous</Link>
+            <li class="navbar-link navbar__dropdown">Miscellaneous
+              <i class="material-icons">keyboard_arrow_down</i>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Faculty</Link>
+                </li>
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Events</Link>
+                </li>
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Notes</Link>
+                </li>
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Clubs</Link>
+                </li>
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Canteen</Link>
+                </li>
+                <li class="dropdown-item">
+                  <Link to={"/"} className="navbar-link">Campus</Link>
+                </li>
+              </ul>
             </li>
             <li className="contact-link">
               <Link to={"/contact"} className="navbar-link" style={{ 'color': '#F4FAEB'}}>Contact</Link>

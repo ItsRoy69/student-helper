@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 *,
 ::after,
@@ -47,19 +48,6 @@ a {
   }
 
 }
-/*  global classes */
-
-/* section */
-.section {
-  width: 90vw;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
-}
 
 /*
 ===============
@@ -99,6 +87,44 @@ h3{
   transform: rotate(90deg);
 }
 
+/**
+ * Import fonts and Icons
+ */
+
+.navbar__dropdown:hover .dropdown {
+  display: block;
+}
+
+/* Dropdowns */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  background-color: white;
+  color: black;
+  list-style-type: none;
+  margin-left: -1rem;
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 0px 0px 5px 5px;
+  border: 0.5px solid #d9d9d9;
+  padding: 8px 0;
+}
+
+.dropdown-item {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Only for use in CodePen */
+
+.dropdown-item .material-icons {
+  padding-right: 1rem;
+  position: absolute;
+}
+
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -129,6 +155,10 @@ h3{
     color: #688F23;
     font-family: 'Adamina';
     font-size: 22;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-left: 20px;
   }
 
   .contact-link {
@@ -137,6 +167,7 @@ h3{
     border-radius: 15px;
     height: 25px;
     width:80px;
+    margin-left: 20px;
   }
 
   .links a {
