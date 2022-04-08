@@ -1,14 +1,45 @@
-.banner{
-  display: flex;
-  flex-direction: row;
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+.banner {
+    display: flex;
+    flex-direction: row;
 }
 
-.rightbanner{
-  flex: 1;
+.rightbanner {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    margin-left: 10rem;
+}
 
-    margin-right: 5rem;
+.rightbannerhead h1 {
+    font-family: 'Acme', sans-serif;
+    color: #2D3D0F;
+    font-size: 62px;
+    font-weight: lighter;
+}
+
+.rightbannerpara p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8C8C99;
+    margin-top: 1.5rem;
+}
+
+.leftbanner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.leftbanner img {
+    width: 100%;
+    height: 100%;
 }

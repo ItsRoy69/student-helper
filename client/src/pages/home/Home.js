@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar.js';
-import greenbg from '../../assets/greenbg.jpg';
-import boy_girlpic from '../../assets/bannerbg.jpg';
+import bannerbg from '../../assets/bannerbg.png';
+import './Home.css'
 
 const Home = () => {
   return (
@@ -18,10 +18,7 @@ const Home = () => {
             </div>
           </div>
           <div className="leftbanner">
-            <div className="bannerimage">
-              <img className="bannerbg" src={greenbg} />
-              <img className="bannerbg" src={boy_girlpic} />
-            </div>
+            <img className="bannerbg" src={bannerbg} />
           </div>
         </div>
       </div>
