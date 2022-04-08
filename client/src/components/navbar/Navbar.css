@@ -53,7 +53,6 @@ a {
 .section {
   width: 90vw;
   margin: 0 auto;
-  max-width: var(--max-width);
 }
 
 @media screen and (min-width: 992px) {
@@ -69,7 +68,7 @@ Navbar
 */
 nav {
   background: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 5px 10px #B4DC70
 }
 
 h3{
@@ -130,6 +129,14 @@ h3{
     color: #688F23;
     font-family: 'Adamina';
     font-size: 22;
+  }
+
+  .contact-link {
+    background-color: #688F23;
+    margin-left: 10px;
+    border-radius: 15px;
+    height: 25px;
+    width:80px;
   }
 
   .links a {
