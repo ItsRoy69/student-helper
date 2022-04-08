@@ -56,7 +56,9 @@ Navbar
 */
 nav {
   background: #fff;
-  box-shadow: 10px 5px 10px #B4DC70
+  box-shadow: 10px 5px 10px #B4DC70;
+  position: fixed;
+  width: 100vw;
 }
 
 h3{
@@ -75,10 +77,8 @@ h3{
 
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
   background: transparent;
   border-color: transparent;
-  transition: var(--transition);
   cursor: pointer;
 }
 
