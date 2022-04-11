@@ -180,6 +180,75 @@
 }
 
 .teammidbannerpic img{
-  width: 500px;
+  width: 600px;
   height: 300px;
+}
+
+.teamcards{
+  margin-top: 20vh;
+  margin-left: 2vw;
+  background-color: #FCFFF9
+}
+
+.teampiccards{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-left: 50px;
+}
+
+.teamdetailcardinfo{
+  text-align: center;
+  align-items: center;
+  background-color: #F4FAEB;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: 1px 5px 5px #D1DFBB;
+  box-shadow: 1px 5px 5px #B4DC70;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+  border-top: 0px;
+}
+
+.teamdetailaboutpic img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+  margin-left: -50px;
+}
+
+.teamdetailabout{
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.teamdetailabout h4{
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2D3D0F;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.teamdetailabout p{
+  color: #6A6A78
+}
+
+.icon{
+  border-radius: 100%;
+  border-width: 0.5px;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-color: #C4C4C4;
 }

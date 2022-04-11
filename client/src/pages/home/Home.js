@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar.js';
 import { Link } from "react-router-dom";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { GrFacebookOption } from "react-icons/gr"
 
 import bannerbg from '../../assets/bannerbg.png';
 import about1 from '../../assets/about1.png';
@@ -11,6 +13,7 @@ import about5 from '../../assets/about5.png';
 import about6 from '../../assets/about6.png';
 import join from '../../assets/join.png';
 import team from '../../assets/team.png';
+import teammember from '../../assets/teammember.png';
 
 import './Home.css'
 
@@ -118,7 +121,85 @@ const Home = () => {
             <img className="teammidbanner" src={team} alt="images"/>
           </div>
         </div>
-        
+
+        <div className="teamcards">
+          <div className="teampiccards">
+
+            <div className="teamdetailcardinfo">
+              <div className="teamdetailaboutpic">
+                <img className="bannerbg" src={teammember} alt="images"/>
+              </div>
+              <div className="teamdetailcard">
+                <div className="teamdetailabout">
+                  <h4>Sayak Sengupta</h4>
+                  <p>Web Developer</p>
+                  <div className='values-list' >
+                    <button className="icon" href={"/"}><GrFacebookOption/></button>
+                    <button className="icon" href={"/"}><FaLinkedinIn/></button>
+                    <button className="icon" href={"/"}><FaTwitter/></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div className="teamdetailcardinfo">
+                <div className="teamdetailaboutpic">
+                  <img className="bannerbg" src={teammember} alt="images"/>
+                </div>
+                <div className="teamdetailcard">
+                  <div className="teamdetailabout">
+                    <h4>Parna Chowdhury</h4>
+                    <p>Web Developer</p>
+                    <div className='values-list' >
+                      <button className="icon" href={"/"}><GrFacebookOption/></button>
+                      <button className="icon" href={"/"}><FaLinkedinIn/></button>
+                      <button className="icon" href={"/"}><FaTwitter/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="teamdetailcardinfo">
+                <div className="teamdetailaboutpic">
+                  <img className="bannerbg" src={teammember} alt="images"/>
+                </div>
+                <div className="teamdetailcard">
+                  <div className="teamdetailabout">
+                    <h4>Tamal Das</h4>
+                    <p>Web Developer</p>
+                    <div className='values-list' >
+                      <button className="icon" href={"/"}><GrFacebookOption/></button>
+                      <button className="icon" href={"/"}><FaLinkedinIn/></button>
+                      <button className="icon" href={"/"}><FaTwitter/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="teamdetailcardinfo">
+                <div className="teamdetailaboutpic">
+                  <img className="bannerbg" src={teammember} alt="images"/>
+                </div>
+                <div className="teamdetailcard">
+                  <div className="teamdetailabout">
+                    <h4>Parna Chowdhury</h4>
+                    <p>Web Developer</p>
+                    <div className='values-list' >
+                      <button className="icon" href={"/"}><GrFacebookOption/></button>
+                      <button className="icon" href={"/"}><FaLinkedinIn/></button>
+                      <button className="icon" href={"/"}><FaTwitter/></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+        <div className="Footer">
+          <h4>Copyright</h4>
+        </div>
+
       </div>
     </>
   )
