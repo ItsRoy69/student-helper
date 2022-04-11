@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route, Routes} from 'react-router-dom';
 
 import Home from './pages/home/Home.js';
 import Faculty from './pages/faculty/Faculty.js';
+import Events from './pages/events/Events.js';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/faculty' element={<Faculty />} />
+          <Route exact path='/events' element={<Events />} />
         </Routes>
       </Router>
     </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
                   <Link to={"/faculty"} className="navbar-link">Faculty</Link>
                 </li>
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Events</Link>
+                  <Link to={"/events"} className="navbar-link">Events</Link>
                 </li>
                 <li class="dropdown-item">
                   <Link to={"/"} className="navbar-link">Notes</Link>
