@@ -55,7 +55,7 @@ Navbar
 ===============
 */
 nav {
-  background: #fff;
+  background: #ffff;
   box-shadow: 10px 5px 10px #B4DC70;
   position: fixed;
   width: 100vw;
@@ -73,6 +73,7 @@ h3{
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  cursor: pointer;  
 }
 
 .nav-toggle {
@@ -92,7 +93,9 @@ h3{
  */
 
 .navbar__dropdown:hover .dropdown {
-  display: block;
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* Dropdowns */

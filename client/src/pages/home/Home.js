@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import Navbar from '../../components/navbar/Navbar.js';
 import { Link } from "react-router-dom";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { GrFacebookOption } from "react-icons/gr"
+import { GrFacebookOption } from "react-icons/gr";
 
 import bannerbg from '../../assets/bannerbg.png';
 import about1 from '../../assets/about1.png';
@@ -47,52 +47,64 @@ const Home = () => {
           </div>
           <div className="midbannerbody">
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about1} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Faculty</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about1} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Faculty</h3>
+                </div>
+              </Link>
             </div>
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about2} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Events</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about2} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Events</h3>
+                </div>
+              </Link>
             </div>
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about3} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Notes</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about3} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Notes</h3>
+                </div>
+              </Link>
             </div>
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about4} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Clubs</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about4} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Clubs</h3>
+                </div>
+              </Link>
             </div>
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about5} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Canteen</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about5} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Canteen</h3>
+                </div>
+              </Link>
             </div>
             <div className="midbannerboxbody">
-              <div className="midbannerboxpic">
-                <img className="bannerbg" src={about6} alt="images"/>
-              </div>
-              <div className="midbannerboxbio">
-                <h3 className="midbannerboxabout">Campus</h3>
-              </div>
+              <Link to={"/faculty"}>
+                <div className="midbannerboxpic">
+                  <img className="bannerbg" src={about6} alt="images"/>
+                </div>
+                <div className="midbannerboxbio">
+                  <h3 className="midbannerboxabout">Campus</h3>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -196,9 +208,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="Footer">
-          <h4>Copyright</h4>
+        <div className="footer">
+          <h4>Copyright @ ItsRoy69</h4>
         </div>
+
 
       </div>
     </>

@@ -1,0 +1,10 @@
+.leftbannerheader h1{
+  font-size: 62px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+}
+
+.bannerhead{
+  padding-top: 100px;
+}

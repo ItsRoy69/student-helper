@@ -70,7 +70,7 @@
 
 .midbannerbody{
   margin-top: 10vh;
-  margin-left: 10vw;
+  margin-left: 6vw;
   align-items: center;
   text-align: center;
   display: grid;
@@ -99,8 +99,6 @@
   font-size: 20px;
 }
 
-
-
 .joimidbanner{
   margin-left: 10vw;
   margin-top: 20vh;
@@ -116,6 +114,7 @@
 .joimidbannerpicdetails{
   margin-top: 20vh;
 }
+
 .joimidbannerpicdetails h3{
   font-size: 35px;
   font-family: 'Acme', sans-serif;
@@ -138,6 +137,10 @@
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.joimidbannerbutton:hover{
+  background-color: #8ABE30;
 }
 
 .joimidbannerbutton h2{
@@ -203,7 +206,7 @@
   width: 250px;
   height: 250px;
   border-radius: 25px;
-  box-shadow: 1px 5px 5px #D1DFBB;
+  box-shadow: 1px 5px 15px #D1DFBB;
   box-shadow: 1px 5px 5px #B4DC70;
   align-items: center;
   text-align: center;
@@ -217,17 +220,16 @@
 .teamdetailaboutpic img{
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: static;
   align-items: center;
   text-align: center;
   margin-top: -100px;
-  margin-left: -50px;
 }
 
 .teamdetailabout{
   align-items: center;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .teamdetailabout h4{
@@ -235,7 +237,6 @@
   font-size: 20px;
   line-height: 28px;
   color: #2D3D0F;
-  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -244,11 +245,34 @@
 }
 
 .icon{
-  border-radius: 100%;
-  border-width: 0.5px;
+  border-radius: 360%;
+  border-width: 1px;
   width: 25px;
   height: 25px;
   margin-right: 5px;
   margin-top: 10px;
   border-color: #C4C4C4;
+  color: #0A142F;
+}
+
+.icon:hover{
+  border-color: #688F24;
+  color: #688F24;
+}
+
+.footer{
+  margin-top: 10vh;
+  background-color: #688F23;
+  width: 100%;
+  height: 5vh;
+  align-items: center;
+  text-align: center;
+}
+
+.footer h4{
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  color: #ffff;
+  font-weight: lighter;
 }

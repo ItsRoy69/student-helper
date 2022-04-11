@@ -8,7 +8,9 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <h3 className="logo">Students Helper</h3>
+          <h3 className="logo">
+            <Link to={"/"}  style={{'color': '#2D3D0F'}}>Students Helper</Link>
+          </h3>
         </div>
         <div className="links-container">
           <ul className="links">
@@ -19,7 +21,7 @@ const Navbar = () => {
               <i class="material-icons">keyboard_arrow_down</i>
               <ul class="dropdown">
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Faculty</Link>
+                  <Link to={"/faculty"} className="navbar-link">Faculty</Link>
                 </li>
                 <li class="dropdown-item">
                   <Link to={"/"} className="navbar-link">Events</Link>
