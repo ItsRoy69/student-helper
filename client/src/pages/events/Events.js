@@ -6,6 +6,7 @@ import leftbannerbg from '../../assets/eventbannerlogo.png';
 import righteventbannerbg from '../../assets/pagesbannerbg.png';
 import webeventbannerbg from '../../assets/website.png';
 import facultycall from '../../assets/facultyinfocall.png';
+import { GrAdd } from "react-icons/gr";
 
 import './Events.css'
 
@@ -23,6 +24,9 @@ const Events = () => {
             <div className="rightbannerheader">
               <h1 className="heading">Events</h1>
               <p className="headingpara">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div className="addbannercards">
+              <button className="icon" href={"/"}><GrAdd/></button>
             </div>
           </div>
         </div>
