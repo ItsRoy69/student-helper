@@ -78,7 +78,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="midbannerboxbody">
-              <Link to={"/faculty"}>
+              <Link to={"/clubs"}>
                 <div className="midbannerboxpic">
                   <img className="bannerbg" src={about4} alt="images"/>
                 </div>
@@ -88,7 +88,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="midbannerboxbody">
-              <Link to={"/faculty"}>
+              <Link to={"/canteen"}>
                 <div className="midbannerboxpic">
                   <img className="bannerbg" src={about5} alt="images"/>
                 </div>
@@ -98,7 +98,7 @@ const Home = () => {
               </Link>
             </div>
             <div className="midbannerboxbody">
-              <Link to={"/faculty"}>
+              <Link to={"/campus"}>
                 <div className="midbannerboxpic">
                   <img className="bannerbg" src={about6} alt="images"/>
                 </div>

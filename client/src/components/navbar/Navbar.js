@@ -27,16 +27,16 @@ const Navbar = () => {
                   <Link to={"/events"} className="navbar-link">Events</Link>
                 </li>
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Notes</Link>
+                  <Link to={"/notes"} className="navbar-link">Notes</Link>
                 </li>
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Clubs</Link>
+                  <Link to={"/clubs"} className="navbar-link">Clubs</Link>
                 </li>
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Canteen</Link>
+                  <Link to={"/canteen"} className="navbar-link">Canteen</Link>
                 </li>
                 <li class="dropdown-item">
-                  <Link to={"/"} className="navbar-link">Campus</Link>
+                  <Link to={"/campus"} className="navbar-link">Campus</Link>
                 </li>
               </ul>
             </li>

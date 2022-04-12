@@ -5,6 +5,9 @@ import Home from './pages/home/Home.js';
 import Faculty from './pages/faculty/Faculty.js';
 import Events from './pages/events/Events.js';
 import Notes from './pages/notes/Notes.js';
+import Canteen from './pages/canteen/Canteen.js';
+import Clubs from './pages/clubs/Clubs.js';
+import Campus from './pages/campus/Campus.js';
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
           <Route exact path='/faculty' element={<Faculty />} />
           <Route exact path='/events' element={<Events />} />
           <Route exact path='/notes' element={<Notes />} />
+          <Route exact path='/canteen' element={<Canteen />} />
+          <Route exact path='/clubs' element={<Clubs />} />
+          <Route exact path='/campus' element={<Campus />} />
         </Routes>
       </Router>
     </div>
