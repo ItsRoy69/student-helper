@@ -9,7 +9,7 @@ import facultyid from '../../assets/facultyinfoid.png';
 import facultysub from '../../assets/facultyinfosub.png';
 import facultycall from '../../assets/facultyinfocall.png';
 
-import './Faculty.css'
+import './Faculty.css';
 
 const Faculty = () => {
   return (
