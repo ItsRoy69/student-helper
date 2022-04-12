@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+.notesbanner {
+    display: flex;
+    flex-direction: row;
+}
+
+.notesbannerbg{
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.notesbannerbg img{
+  width: 50vw;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 25vw;
+}
+
+.bannerheader{
+  align-items: center;
+  text-align: center;
+  margin-left: -37vw;
+  margin-top: -50vh;
+  width: 300px;
+}
+
+.bannerheader h1{
+  font-size: 62px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+}
+
+.bannerheader p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8C8C99;
+    margin-top: 1.5rem;
+}

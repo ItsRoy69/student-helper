@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Navbar.js';
+import Footer from '../../components/footer/Footer.js';
 import { Link } from "react-router-dom";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
-import Footer from '../../components/footer/Footer.js';
+
 
 import bannerbg from '../../assets/bannerbg.png';
 import about1 from '../../assets/about1.png';
