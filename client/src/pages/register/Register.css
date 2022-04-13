@@ -1,0 +1,14 @@
+.card-body{
+    width: 800px;
+    height: 90%;
+    background-color: #EFF5FF;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: product;
+    border: 2px solid #3364FF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px #6d6d6d;
+}

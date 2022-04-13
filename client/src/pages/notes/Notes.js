@@ -21,6 +21,14 @@ const Notes = () => {
           </div>
         </div>
         <div className="notesmidbanner">
+          <div className="notesmiddlebanner">
+            <div className="notesmiddleheadbanner">
+
+            </div>
+            <div className="notesmiddleslidebanner">
+
+            </div>
+          </div>
         </div>
         <Footer/>
       </div>
