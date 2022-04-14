@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/navbar/Navbar.js';
 import Footer from '../../components/footer/Footer.js';
+import Slider from './Slider.js';
 
 import notesbg from '../../assets/notesbannerbg.png';
 
@@ -26,7 +27,7 @@ const Notes = () => {
               <h1 className="notesyear">First Year Notes</h1>
             </div>
             <div className="notesmiddleslidebanner">
-
+              <Slider />
             </div>
           </div>
         </div>
