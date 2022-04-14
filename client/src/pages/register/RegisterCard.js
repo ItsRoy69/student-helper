@@ -1,5 +1,5 @@
 import React from 'react'
-import './TeamFinder.css'
+import './RegisterCard.css'
 
 const TeamFinder = ({ setModal }) => {
   return (

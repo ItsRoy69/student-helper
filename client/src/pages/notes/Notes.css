@@ -44,3 +44,22 @@
     color: #8C8C99;
     margin-top: 1.5rem;
 }
+
+.notesmiddleheadbanner {
+  background-color: #A1CB5A;
+  align-items: center;
+  text-align: center;
+  width: 40vw;
+  justify-content:center;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 30vw;
+}
+
+.notesmiddleheadbanner h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+  padding-top: 8px;
+}

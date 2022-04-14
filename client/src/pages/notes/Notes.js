@@ -23,7 +23,7 @@ const Notes = () => {
         <div className="notesmidbanner">
           <div className="notesmiddlebanner">
             <div className="notesmiddleheadbanner">
-
+              <h1 className="notesyear">First Year Notes</h1>
             </div>
             <div className="notesmiddleslidebanner">
 
