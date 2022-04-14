@@ -1,0 +1,20 @@
+.joimidbannerbutton{
+  background-color: #688F23;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.joimidbannerbutton:hover{
+  background-color: #8ABE30;
+}
+
+.joimidbannerbutton h2{
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: #FCFFF9;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-left: 25px;
+}

@@ -1,14 +1,89 @@
 .card-body{
     width: 800px;
-    height: 90%;
+    height: 400px;
     background-color: #EFF5FF;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 40px;
     align-items: center;
     justify-content: center;
-    font-family: product;
+    font-family: 'Acme', sans-serif;
     border: 2px solid #3364FF;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 20px #6d6d6d;
+}
+
+.backdrop-con{
+    position: absolute;
+    top: 160vh;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* filter: blur(20px); */
+}
+
+.card-banner{
+  display: flex;
+  flex-direction: row;
+}
+
+.left_card_banner{
+  width: 50%;
+
+}
+
+.left_card_banner h1{
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.left_card_banner p {
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #8C8C99;
+  margin-top: 1.5rem;
+}
+
+.right-card-banner{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.right-card h4{
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+
+.yearbannerbutton{
+  background-color: #688F23;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 5px;
+}
+
+.yearbannerbutton:hover{
+  background-color: #8ABE30;
+}
+
+.yearbannerbutton h2{
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-left: -25px;
 }

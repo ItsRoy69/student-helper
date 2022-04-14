@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar.js';
 import Footer from '../../components/footer/Footer.js';
+import {Register} from '../register/Register.js';
+import TeamFinder from '../register/TeamFinder.js';
+
+
 import { Link } from "react-router-dom";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
@@ -20,6 +24,8 @@ import teammember from '../../assets/teammember.png';
 import './Home.css'
 
 const Home = () => {
+  const [modal, setModal] = useState(false);
+
   return (
     <>
       <div className="landingpage">
@@ -119,7 +125,8 @@ const Home = () => {
               <h3>Join Us!</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               <div className="joimidbannerbutton">
-                <Link to={"/register"}><h2>Register</h2></Link>
+                <TeamFinder setModal={setModal} />
+                {modal && <Register setModal={setModal} />}
               </div>
             </div>
           </div>
