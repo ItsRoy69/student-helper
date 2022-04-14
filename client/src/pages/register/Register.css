@@ -1,9 +1,8 @@
-.card-body{
-    width: 800px;
-    height: 400px;
+.cardbody{
+    width: 900px;
+    height: 450px;
     background-color: #EFF5FF;
     display: flex;
-    flex-direction: row;
     padding: 40px;
     align-items: center;
     justify-content: center;
@@ -15,7 +14,7 @@
 
 .backdrop-con{
     position: absolute;
-    top: 160vh;
+    top: 170vh;
     left: 0;
     width: 100%;
     height: 80%;
@@ -26,24 +25,27 @@
     /* filter: blur(20px); */
 }
 
-.card-banner{
+.cardbanner{
   display: flex;
   flex-direction: row;
+  text-align: left;
+  padding-top: 10vh;
 }
 
-.left_card_banner{
+.leftcardbanner{
   width: 50%;
-
+  display: flex;
+  flex-direction: column;
 }
 
-.left_card_banner h1{
+.leftcardbanner h1{
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-size: 35px;
   font-weight: lighter;
 }
 
-.left_card_banner p {
+.leftcardbannerpara h1{
   font-family: 'Acme', sans-serif;
   font-size: 20px;
   line-height: 28px;
@@ -51,39 +53,108 @@
   margin-top: 1.5rem;
 }
 
-.right-card-banner{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
+.leftbannerpic{
+  width: 109px;
+  height: 235px;
+  margin-left: -300px;
+  margin-right: 200px;
+  margin-top: 120px;
 }
-.right-card h4{
+
+.rightcard{
+  background-color: #F4FAEB;
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 25px;
+  box-shadow: 1px 5px 15px #D1DFBB;
+  box-shadow: 1px 5px 5px #B4DC70;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+}
+
+.rightcardname, .rightcardcollege, .rightcardmail, .rightcardpassword{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.rightcard h4{
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-size: 16px;
   font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
+.naming{
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #8ABE30;
+  border-style: solid;
+  height: 20px;
+}
 
-.yearbannerbutton{
+.rightcardyear{
+  padding-top: 20px;
+}
+.yearbuttons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.yearbutton{
   background-color: #688F23;
-  width: 60px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
   border-radius: 10px;
   cursor: pointer;
-  border: 5px;
+  border: 1px solid #2D3D0F;
+  margin-left: 20px;
 }
 
-.yearbannerbutton:hover{
+.yearbutton:hover{
   background-color: #8ABE30;
 }
 
-.yearbannerbutton h2{
-  font-size: 20px;
+.yearbutton h1{
+  font-size: 15px;
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-weight: lighter;
-  padding-top: 10px;
-  padding-left: -25px;
+  padding-top: 6px;
+  padding-left: 10px;
+}
+
+.rightbuttons{
+  margin-top: 280px;
+  margin-left: -300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.signinbutton, .signupbutton{
+  background-color: #688F23;
+  width: 65px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #2D3D0F;
+  margin-left: 20px;
+}
+
+.signinbutton:hover, .signupbutton:hover{
+  background-color: #8ABE30;
+}
+
+
+.signinbutton h1, .signupbutton h1{
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+  color: #ffff;
+  font-weight: lighter;
+  padding-top: 6px;
+  padding-left: 10px;
 }
