@@ -58,7 +58,7 @@
   height: 40vh;
 }
 
-.rightbodycardname, .rightcardmail, .rightcardissue{
+.rightbodycardname, .rightcardmailids, .rightcardissue{
   display: flex;
   flex-direction: column;
   padding-top: 20px;
@@ -74,7 +74,7 @@
   padding-bottom: 5px;
 }
 
-.naming, .namingissue{
+.namings, .namingissue{
   border-radius: 5px;
   border-width: 1px;
   border-color: #8ABE30;

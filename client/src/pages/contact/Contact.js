@@ -34,11 +34,11 @@ const Contact = ({ setModal }) => {
             <div className='rightcontactbanner'>
               <div className='rightbodycardname'>
                 <h4>Name</h4>
-                <input className='naming' name="name" placeholder='Enter your name' type="text" />
+                <input className='namings' name="name" placeholder='Enter your name' type="text" />
               </div>
-              <div className='rightcardmail'>
+              <div className='rightcardmailids'>
                 <h4>Mail ID</h4>
-                <input className='naming' name="mail" placeholder='Enter your Mail ID' type="text" />
+                <input className='namings' name="mail" placeholder='Enter your Mail ID' type="text" />
               </div>
               <div className='rightcardissue' style={{'padding-bottom':'20px'}}>
                 <h4>Issue</h4>
@@ -57,7 +57,7 @@ const Contact = ({ setModal }) => {
             <h3>FAQs</h3>
           </div>
           <div>
-            <FAQList              
+            <FAQList
               items={[
                 { title: "This is question 1", body: "This is answer 1" },
                 { title: "This is question 2", body: "This is answer 2" },
