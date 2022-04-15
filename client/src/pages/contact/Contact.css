@@ -1,0 +1,119 @@
+.contacthead{
+  display: flex;
+  flex-direction: row;
+}
+
+.leftcontactbanner{
+  width: 50vw;
+}
+
+.leftcontactbanner h1{
+  font-size: 62px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+  margin-left: 10vw;
+}
+
+.leftcontactbanner p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8C8C99;
+    margin-top: 1.5rem;
+    margin-left: 10vw;
+}
+
+.contactbanner{
+  display: flex;
+  margin-top: 20vh;
+}
+
+.rightbanner img{
+  width: 590px;
+  height: 290px;
+  margin-left: -10vw;
+}
+
+.contactbodybanner{
+  display: flex;
+}
+
+.leftcontactbodybanner{
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+
+.rightcontactbanner{
+  background-color: #F4FAEB;
+  width: 400px;
+  margin-left: 20vw;
+  margin-top: 10vh;
+  border-radius: 25px;
+  box-shadow: 1px 5px 15px #D1DFBB;
+  box-shadow: 1px 5px 5px #B4DC70;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+  height: 40vh;
+}
+
+.rightbodycardname, .rightcardmail, .rightcardissue{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.rightcontactbanner h4{
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+
+.naming, .namingissue{
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #8ABE30;
+  border-style: solid;
+  height: 20px;
+  margin-left: 20px;
+  width:25vw;
+}
+
+.submitbutton{
+  margin-top: 55vh;
+  margin-left: -26vw;
+  background-color: #688F23;
+  width: 22vw;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+}
+
+.submitbutton:hover{
+  background-color: #8ABE30;
+}
+
+.submitbutton h1{
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: #FCFFF9;
+  font-weight: lighter;
+  padding-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.contactbottom h3{
+  font-size: 35px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}

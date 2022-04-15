@@ -8,6 +8,7 @@ import Notes from './pages/notes/Notes.js';
 import Canteen from './pages/canteen/Canteen.js';
 import Clubs from './pages/clubs/Clubs.js';
 import Campus from './pages/campus/Campus.js';
+import Contact from './pages/contact/Contact.js';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path='/canteen' element={<Canteen />} />
           <Route exact path='/clubs' element={<Clubs />} />
           <Route exact path='/campus' element={<Campus />} />
+          <Route exact path='/contact' element={<Contact />} />
         </Routes>
       </Router>
     </div>
