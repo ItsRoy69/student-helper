@@ -93,7 +93,7 @@ export default function App() {
         })}
       </div>
       <div className="AuthHome-red">
-        <button>
+        <button1>
           <svg
             width="50"
             height="25"
@@ -108,8 +108,8 @@ export default function App() {
               fill="grey"
             />
           </svg>
-        </button>
-        <button>
+        </button1>
+        <button2>
           <svg
             width="50"
             height="25"
@@ -125,7 +125,7 @@ export default function App() {
               fill="grey"
             />
           </svg>
-        </button>
+        </button2>
       </div>
     </>
   );

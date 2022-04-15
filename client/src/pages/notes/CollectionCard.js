@@ -2,7 +2,7 @@ import React from "react";
 import "./CollectionCard.css";
 
 export default function CollectionCard(props) {
-  const { name, id, margin, flashcardAmount, className, idTag } = props;
+  const { name, margin, flashcardAmount, className, idTag } = props;
 
   return (
     <div

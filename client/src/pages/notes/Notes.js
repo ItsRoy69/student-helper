@@ -30,6 +30,30 @@ const Notes = () => {
               <Slider />
             </div>
           </div>
+          <div className="notesmiddlebanner">
+            <div className="notesmiddleheadbanner">
+              <h1 className="notesyear">Second Year Notes</h1>
+            </div>
+            <div className="notesmiddleslidebanner">
+              <Slider />
+            </div>
+          </div>
+          <div className="notesmiddlebanner">
+            <div className="notesmiddleheadbanner">
+              <h1 className="notesyear">Third Year Notes</h1>
+            </div>
+            <div className="notesmiddleslidebanner">
+              <Slider />
+            </div>
+          </div>
+          <div className="notesmiddlebanner">
+            <div className="notesmiddleheadbanner">
+              <h1 className="notesyear">Fourth Year Notes</h1>
+            </div>
+            <div className="notesmiddleslidebanner">
+              <Slider />
+            </div>
+          </div>
         </div>
         <Footer/>
       </div>

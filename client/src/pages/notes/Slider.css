@@ -1,12 +1,12 @@
 
 .AuthHome-CollectionsRow {
-  width: 95%;
+  width: 90%;
   display: flex;
-  justify-content: center;
   margin: auto;
   position: relative;
   padding: 50px;
   overflow: hidden;
+  justify-content: center;
 }
 
 .AuthHome-FadeOverlay {
@@ -50,12 +50,22 @@
 }
 
 .AuthHome-fill:hover {
-  fill: #f9aa97;
+  fill: #A1CB5A;
 }
 
-button {
+button2 {
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
+  margin-left: 90vw;
+  margin-top: -50vh;
+}
+
+button1 {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: -50vh;
 }
