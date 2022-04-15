@@ -57,7 +57,7 @@ Navbar
 nav {
   background: #ffff;
   box-shadow: 10px 5px 10px #B4DC70;
-  position: fixed;
+  position:fixed;
   width: 100vw;
 }
 

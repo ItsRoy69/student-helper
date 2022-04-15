@@ -25,7 +25,7 @@
 }
 
 .leftbannerhead{
-  width: 55vw;
+  width: 50vw;
 }
 
 .leftbannerhead img{
@@ -44,6 +44,103 @@
 }
 
 .addbannercards .icon{
-  margin-left: -10vw;
+  margin-left: -24vw;
   margin-top: -20vh;
+}
+
+.canteentablehead{
+  background-color: #A1CB5A;
+  display: flex;
+  width: 80vw;
+  height: 5vh;
+  margin-left: 10vw;
+  border-radius: 12px;
+  position: absolute;
+}
+
+.canteentablehead h1{
+  padding-top: 6px;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: #000000;
+  font-weight: lighter;
+}
+
+.headingfood, .tablefood{
+  margin-left: 12vw;
+}
+
+.headingprice{
+  margin-left: 48vw;
+}
+
+.canteentablebody{
+  background-color: #F4FAEB;
+  border-radius: 25px;
+  padding-top: 50px;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+  width: 80vw;
+  margin-left: 10vw;
+  border-top-style: hidden;
+  box-shadow: 1px 10px 10px 10px #D1DFBB;
+}
+
+.canteentablebodycontents{
+  display: flex;
+}
+
+.canteentablebodycontents h1{
+  padding-top: 6px;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: #6A6A78;
+  font-weight: lighter;
+}
+
+.tableprice{
+  margin-left: 45vw;
+}
+
+.tablefood{
+  margin-left: 0vw;
+}
+
+.canteentablebodycontents{
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+  width: 60vw;
+  border-top-style: hidden;
+  box-shadow: 1px #D1DFBB;
+  border-right: 0px;
+  border-left: 0px;
+  margin-left: 10vw;
+  padding-top: 10px;
+}
+
+.addbutton{
+  background-color: #688F23;
+  width: 65px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #2D3D0F;
+  margin-left: 62vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.addbutton:hover{
+  background-color: #8ABE30;
+}
+
+.addbutton h1{
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+  color: #ffff;
+  font-weight: lighter;
+  padding-top: 6px;
+  padding-left: 10px;
 }

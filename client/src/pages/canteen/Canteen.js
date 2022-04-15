@@ -8,7 +8,7 @@ import canteenbannerlogo from '../../assets/canteenbanner.png';
 import { GrAdd } from "react-icons/gr";
 import './Canteen.css'
 
-const Canteen = () => {
+const Canteen = ({ setModal }) => {
   return (
     <>
       <div className="canteenpage">
@@ -30,11 +30,80 @@ const Canteen = () => {
             </div>
           </div>
         </div>
+        <div className="canteenbody">
+          <div className="canteentable">
+            <div className="canteentablehead">
+              <h1 className="headingfood">Food</h1>
+              <h1 className="headingprice">Prices</h1>
+            </div>
+            <div className="canteentablebody">
+              <div className="canteentableinnerbody">
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div><div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+                <div className="canteentablebodycontents">
+                  <h1 className="tablefood">Lorem Ipsum</h1>
+                  <h1 className="tableprice">Rs.</h1>
+                </div>
+              </div>
+              <div className="addbutton">
+                <div onClick={()=>setModal(true)}>
+                  <h1>Buy</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Footer/>
       </div>
-
-
-
     </>
   )
 }
