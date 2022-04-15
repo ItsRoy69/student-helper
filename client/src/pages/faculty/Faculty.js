@@ -14,7 +14,7 @@ import './Faculty.css';
 const Faculty = () => {
   return (
     <>
-      <div className="landingpage">
+      <div className="facultypage">
         <Navbar/>
         <div className="bannerhead">
           <div className="bannerheading">
