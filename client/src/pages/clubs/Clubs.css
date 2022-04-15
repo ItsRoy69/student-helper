@@ -1,4 +1,134 @@
-.clubbannerpage{
+.clubbanner{
   display: flex;
   flex-direction: row;
+}
+
+.leftclubbanner img{
+  width: 45vw;
+  height: 100vh;
+}
+
+.rightclubbanner img{
+  width: 50vw;
+}
+
+.rightclubbanner{
+  width: 55vw;
+  padding-top: 100px;
+}
+
+.rightbannerheader h1{
+  font-size: 62px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+}
+
+.rightbannerheader p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8C8C99;
+    margin-top: 1.5rem;
+}
+
+.rightbannerheader{
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 30vw;
+}
+
+.addbannercards{
+  display: flex;
+  margin-top: 20vh;
+  margin-left: 45vw;
+}
+
+.addbannercards .icon{
+  background-color: #B3D57A;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.clubbannercards{
+  margin-top: 20vh;
+}
+
+.clubbannercard{
+  background-color: #F4FBF4;
+  width: 80vw;
+  height: 200px;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  border-radius: 25px;
+  box-shadow: 1px 5px 15px #D1DFBB;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+}
+
+.clubbannercardpara{
+  margin-left: 6vw;
+  margin-top: -6vh;
+  width: 60vw;
+}
+.clubbannercard h3{
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.clubbannercard .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.clubbannercard p{
+  color: #6A6A78;
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+  font-weight: lighter;
+  display:flex;
+  justify-content: flex-start;
+  text-align: justify;
+  margin-top: 1.5rem;
+}
+
+.clubbannercardetails{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+}
+
+.clubbannercardglobe{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.clubbannercardcall{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.clubbannercardetails p{
+  color: #6A6A78;
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+  font-weight: lighter;
+  display:flex;
+  justify-content: flex-start;
+  text-align: justify;
+  margin-top: 15px;
 }
