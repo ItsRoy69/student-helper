@@ -1,0 +1,62 @@
+.leftbannerheader h1{
+  font-size: 62px;
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-weight: lighter;
+}
+
+.leftbannerheader p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8C8C99;
+    margin-top: 1.5rem;
+}
+
+.bannerhead {
+    display: flex;
+    flex-direction: row;
+}
+
+.bannerheading{
+  padding-top: 120px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.leftbannerhead{
+  width: 50vw;
+}
+
+.leftbannerhead img{
+  width: 50vw;
+}
+
+.leftbannerheader{
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 25vw;
+}
+
+.rightbannerhead img{
+  width: 35vw;
+  margin-left: 10vw;
+}
+
+.midbannerbox{
+  border-color: #F4FAEB;
+  border-radius: 25px;
+  border-width: 20px;
+  border-style: solid;
+  box-shadow: 1px 10px 10px 10px #D1DFBB;
+}
+
+.routeMap{
+  width:74vw;
+  height:450px;
+  border-radius: 25px;
+  border-width: 20px;
+  border-color: #A1CB5A;
+  border-style: solid;
+  box-shadow: 1px 10px 10px 10px #D1DFBB;
+}
