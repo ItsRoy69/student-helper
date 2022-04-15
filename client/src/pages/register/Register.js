@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
 
 import bannerpic from '../../assets/register.png';
 
