@@ -40,6 +40,12 @@ li {
   display: inline-block;
 }
 
+.navbar__middle a{
+  color: #2D3D0F;
+  text-decoration: none;
+}
+
+
 .navbar__middle__logo h1 {
   font-family: 'Acme', sans-serif;
   font-style: normal;
