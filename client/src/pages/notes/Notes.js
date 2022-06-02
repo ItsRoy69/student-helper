@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../../components/Navbar.js';
+import Footer from '../../components/Footer.js';
 import Slider from './Slider.js';
 
 import notesbg from '../../assets/notesbannerbg.png';

@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 
-import leftbannerbg from '../../assets/clubsbanner.png';
-import rightclubbannerbg from '../../assets/pagesbannerbg.png';
-import webeventbannerbg from '../../assets/website.png';
-import facultycall from '../../assets/facultyinfocall.png';
+import leftbannerbg from '../assets/clubsbanner.png';
+import rightclubbannerbg from '../assets/pagesbannerbg.png';
+import webeventbannerbg from '../assets/website.png';
+import facultycall from '../assets/facultyinfocall.png';
 
 import { GrAdd } from "react-icons/gr";
-import './Clubs.css'
+import '../styles/Clubs.css'
 
 const Clubs = () => {
   return (

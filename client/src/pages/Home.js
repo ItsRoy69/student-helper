@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
-import {Register} from '../register/Register.js';
-import RegisterCard from '../register/RegisterCard.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
+import {Register} from './register/Register.js';
+import RegisterCard from './register/RegisterCard.js';
 
 
 import { Link } from "react-router-dom";
@@ -10,18 +10,18 @@ import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
 
 
-import bannerbg from '../../assets/bannerbg.png';
-import about1 from '../../assets/about1.png';
-import about2 from '../../assets/about2.png';
-import about3 from '../../assets/about3.png';
-import about4 from '../../assets/about4.png';
-import about5 from '../../assets/about5.png';
-import about6 from '../../assets/about6.png';
-import join from '../../assets/join.png';
-import team from '../../assets/team.png';
-import teammember from '../../assets/teammember.png';
+import bannerbg from '../assets/bannerbg.png';
+import about1 from '../assets/about1.png';
+import about2 from '../assets/about2.png';
+import about3 from '../assets/about3.png';
+import about4 from '../assets/about4.png';
+import about5 from '../assets/about5.png';
+import about6 from '../assets/about6.png';
+import join from '../assets/join.png';
+import team from '../assets/team.png';
+import teammember from '../assets/teammember.png';
 
-import './Home.css'
+import '../styles/Home.css'
 
 const Home = () => {
   const [modal, setModal] = useState(false);
@@ -30,19 +30,16 @@ const Home = () => {
     <>
       <div className="landingpage">
         <Navbar/>
-        <div className="banner">
-          <div className="rightbanner">
-            <div className="rightbannerhead">
-              <h1 className="header">Students Helper</h1>
-            </div>
-            <div className="rightbannerpara">
-              <p className="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-          </div>
-          <div className="leftbanner">
-            <img className="bannerbg" src={bannerbg} alt="images"/>
-          </div>
+        <div className="banner section__padding" id="home">
+        <div className="banner-content">          
+          <h1>Students Helper</h1> 
+          <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3> 
         </div>
+
+        <div className="banner-image">
+          <img src={bannerbg} alt="bannerimg" />
+        </div>
+      </div>
 
         <div className="midbanner">
           <div className="midbannerhead">

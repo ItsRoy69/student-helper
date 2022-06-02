@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 
-import facultybannerbg from '../../assets/pagesbannerbg.png';
-import facultybannerlogo from '../../assets/facultybannerlogo.png';
-import facultydp from '../../assets/facultydp.png';
-import facultyid from '../../assets/facultyinfoid.png';
-import facultysub from '../../assets/facultyinfosub.png';
-import facultycall from '../../assets/facultyinfocall.png';
+import facultybannerbg from '../assets/pagesbannerbg.png';
+import facultybannerlogo from '../assets/facultybannerlogo.png';
+import facultydp from '../assets/facultydp.png';
+import facultyid from '../assets/facultyinfoid.png';
+import facultysub from '../assets/facultyinfosub.png';
+import facultycall from '../assets/facultyinfocall.png';
 
-import './Faculty.css';
+import '../styles/Faculty.css';
 
 const Faculty = () => {
   return (

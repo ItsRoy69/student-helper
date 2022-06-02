@@ -1,14 +1,14 @@
 import './App.css';
 import {BrowserRouter as Router,Route, Routes} from 'react-router-dom';
 
-import Home from './pages/home/Home.js';
-import Faculty from './pages/faculty/Faculty.js';
-import Events from './pages/events/Events.js';
+import Home from './pages/Home.js';
+import Faculty from './pages/Faculty.js';
+import Events from './pages/Events.js';
 import Notes from './pages/notes/Notes.js';
-import Canteen from './pages/canteen/Canteen.js';
-import Clubs from './pages/clubs/Clubs.js';
-import Campus from './pages/campus/Campus.js';
-import Contact from './pages/contact/Contact.js';
+import Canteen from './pages/Canteen.js';
+import Clubs from './pages/Clubs.js';
+import Campus from './pages/Campus.js';
+import Contact from './pages/Contact.js';
 
 const App = () => {
   return (

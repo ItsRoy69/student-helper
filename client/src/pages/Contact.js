@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 import FAQList from "./Faq.js";
-import bannerpic from '../../assets/contactbanner.png';
-import contactpic from '../../assets/register.png';
+import bannerpic from '../assets/contactbanner.png';
+import contactpic from '../assets/register.png';
 
-import './Contact.css'
+import '../styles/Contact.css'
 
 const Contact = ({ setModal }) => {
   return (

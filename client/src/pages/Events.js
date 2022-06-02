@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 
-import leftbannerbg from '../../assets/eventbannerlogo.png';
-import righteventbannerbg from '../../assets/pagesbannerbg.png';
-import webeventbannerbg from '../../assets/website.png';
-import facultycall from '../../assets/facultyinfocall.png';
+import leftbannerbg from '../assets/eventbannerlogo.png';
+import righteventbannerbg from '../assets/pagesbannerbg.png';
+import webeventbannerbg from '../assets/website.png';
+import facultycall from '../assets/facultyinfocall.png';
 import { GrAdd } from "react-icons/gr";
 
-import './Events.css'
+import '../styles/Events.css'
 
 const Events = () => {
   return (

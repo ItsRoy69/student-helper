@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 
-import canteenbannerbg from '../../assets/pagesbannerbg.png';
-import canteenbannerlogo from '../../assets/canteenbanner.png';
+import canteenbannerbg from '../assets/pagesbannerbg.png';
+import canteenbannerlogo from '../assets/canteenbanner.png';
 
 import { GrAdd } from "react-icons/gr";
-import './Canteen.css'
+import '../styles/Canteen.css'
 
 const Canteen = ({ setModal }) => {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from '../../components/navbar/Navbar.js';
-import Footer from '../../components/footer/Footer.js';
+import Navbar from '../components/Navbar.js';
+import Footer from '../components/Footer.js';
 
-import campusbannerbg from '../../assets/pagesbannerbg.png';
-import campusbannerlogo from '../../assets/campusbanner.png';
+import campusbannerbg from '../assets/pagesbannerbg.png';
+import campusbannerlogo from '../assets/campusbanner.png';
 
-import './Campus.css'
+import '../styles/Campus.css';
 
 const Campus = ({ setModal }) => {
   return (
