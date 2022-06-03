@@ -16,13 +16,13 @@ const Faculty = () => {
     <>
       <div className="facultypage">
         <Navbar/>
-        <div className="banner section__padding" id="home">
+        <div className="facultybanner section__padding" id="home">
           <img className="facultybannerbg" src={facultybannerbg} alt="images"/>
-          <div className="banner-content">
+          <div className="facultybanner-content">
             <h1>Faculty</h1> 
             <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3> 
           </div>
-          <div className="banner-image">
+          <div className="facultybanner-image">
             <img src={facultybannerlogo} alt="bannerimg" />
           </div>
         </div>
