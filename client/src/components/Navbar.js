@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="container">
             <div className="row">
               <div className="navbar__middle__logo">
-                <a href="#home">
+                <a href="/">
                     <h1>Students Helper</h1>
                 </a>
               </div>
@@ -52,19 +52,19 @@ const Navbar = () => {
 
                   <ul className={boxClass.join(' ')}>
                     <li  className="menu-item" >
-                      <a exact activeClassName='is-active' onClick={toggleClass} href="#home"> Home </a> 
+                      <a exact activeClassName='is-active' onClick={toggleClass} href="/"> Home </a> 
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <a href="#"> Miscellaneous <FiChevronDown /> </a>
                       <ul className={boxClassSubMenu.join(' ')} > 
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#internships"> Faculty </a> </li>
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#volunteering"> Events </a> </li>
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#opensource"> Notes </a> </li>
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#achievements"> Clubs </a> </li>
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#projects"> Canteen </a> </li>
-                        <li><a onClick={toggleClass} activeClassName='is-active' href="#workshops"> Campus </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/faculty"> Faculty </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/events"> Events </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/notes"> Notes </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/clubs"> Clubs </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/canteen"> Canteen </a> </li>
+                        <li><a onClick={toggleClass} activeClassName='is-active' href="/campus"> Campus </a> </li>
                       </ul>
                     </li>
-                    <li className="menu-item " ><a onClick={toggleClass} activeClassName='is-active' href="#contact"> Contact </a> </li>
+                    <li className="menu-item " ><a onClick={toggleClass} activeClassName='is-active' href="/contact"> Contact </a> </li>
                   </ul>
                 </nav>     
               </div>       

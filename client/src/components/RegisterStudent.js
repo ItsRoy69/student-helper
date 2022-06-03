@@ -29,6 +29,10 @@ export const RegisterStudent = ({ setModal }) => {
             <div className='rightemail'>
               <h4>Email </h4>
               <input className='naming' name="college" placeholder='Enter your email id' type="text" />
+            </div> 
+            <div className='rightpassword'>
+              <h4>Password</h4>
+              <input className='naming' name="password" placeholder='Enter your Password' type="text" />
             </div>                 
             <div className='rightyear'>
               <h4>Year</h4>

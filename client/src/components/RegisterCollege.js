@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
+
 import { RegisterStudent } from './RegisterStudent';
 import { RegisterTeacher } from './RegisterTeacher';
+import { RegisterShop } from './RegisterShop';
+
 import "../styles/RegisterCollege.css";
 
 export const RegisterCollege = () => {
     
     const [modal, setModal] = useState(false);
     const [faculty, setFaculty] = useState(false);
+    const [shop, setShop] = useState(false);
     
     return (
       <div className='backdrop'>
@@ -24,9 +28,10 @@ export const RegisterCollege = () => {
                 <h1>Faculty</h1>
               </div>
               {faculty && <RegisterTeacher setFaculty={setFaculty} />}
-              <div className="button">
+              <div className="button" onClick={()=>setShop(true)}>
                 <h1>Shopkeeper</h1>
               </div>
+              {shop && <RegisterShop setShop={setShop} />}
               <div className="button" onClick={()=>setModal(true)}>
                 <h1>Student</h1>
               </div>

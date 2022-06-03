@@ -61,13 +61,6 @@
   border-style: solid;
 }
 
-
-.rightname, .rightcollege, .rightemail, .rightpassword{
-  display: flex;
-  flex-direction: row;
-  padding-top: 20px;
-}
-
 .registerstudentcardside{
   padding: 20px;
 }
@@ -142,4 +135,9 @@
   font-family: 'Acme', sans-serif;
   color: #ffff;
   font-weight: lighter;
+}
+
+.rightname, .rightcollege, .rightemail, .rightpassword {
+  display: flex;
+  flex-direction: row;
 }
