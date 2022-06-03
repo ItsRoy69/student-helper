@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
-import { Link } from "react-router-dom";
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
 const Navbar = () => {
@@ -55,7 +54,7 @@ const Navbar = () => {
                     <li  className="menu-item" >
                       <a exact activeClassName='is-active' onClick={toggleClass} href="#home"> Home </a> 
                     </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Miscellaneous <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <a href="#"> Miscellaneous <FiChevronDown /> </a>
                       <ul className={boxClassSubMenu.join(' ')} > 
                         <li><a onClick={toggleClass} activeClassName='is-active' href="#internships"> Faculty </a> </li>
                         <li><a onClick={toggleClass} activeClassName='is-active' href="#volunteering"> Events </a> </li>

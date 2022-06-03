@@ -1,14 +1,14 @@
 import React from 'react';
 
-import bannerpic from '../../assets/register.png';
+import bannerpic from '../assets/register.png';
 
-import "./Register.css";
+import "../styles/RegisterStudent.css";
 
-export const Register = ({ setModal }) => {
+export const RegisterStudent = ({ setModal }) => {
 
     return (
-      <div className='backdrop-con' onClick={() => setModal(false)}>
-        <div className='cardbody'>
+      <div className='backdrop-student'>
+        <div className='studentcardbody'>
           <div className='leftcard'>
             <h1>Check Now</h1>
             <div className='leftcardpara'>
@@ -16,8 +16,8 @@ export const Register = ({ setModal }) => {
             </div>
           <img className="leftpic" src={bannerpic} alt="images"/>            
         </div>
-        <div className='rightcard'>
-          <div className='rightcardside'>
+        <div className='registerstudentcard'>
+          <div className='registerstudentcardside'>
             <div className='rightname'>
               <h4>Name</h4>
               <input className='naming' name="name" placeholder='Enter your name' type="text" />
@@ -25,7 +25,11 @@ export const Register = ({ setModal }) => {
             <div className='rightcollege'>
               <h4>College</h4>
               <input className='naming' name="college" placeholder='Enter your College name' type="text" />
-            </div>
+            </div>       
+            <div className='rightemail'>
+              <h4>Email </h4>
+              <input className='naming' name="college" placeholder='Enter your email id' type="text" />
+            </div>                 
             <div className='rightyear'>
               <h4>Year</h4>
               <div className="yearbuttons">
@@ -42,16 +46,7 @@ export const Register = ({ setModal }) => {
                   <h1>Fourth</h1>
                 </div>
               </div>
-            </div>
-            <div className='rightmail'>
-              <h4>Mail ID</h4>
-              <input className='naming' name="mail" placeholder='Enter your Mail ID' type="text" />
-            </div>
-            <div className='rightpassword' style={{'padding-bottom':'20px'}}>
-              <h4>Password</h4>
-              <input className='naming' name="password" placeholder='Enter your Password' type="text" />
-            </div>
-          
+            </div>          
           <div className="buttons">
             <div className="signinbutton">
               <h1>Sign In</h1>

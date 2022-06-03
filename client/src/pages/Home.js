@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
-import {Register} from './register/Register.js';
-import RegisterCard from './register/RegisterCard.js';
+import {RegisterCollege} from '../components/RegisterCollege.js';
 
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
@@ -123,10 +122,10 @@ const Home = () => {
             <div className="joinbannerdetails">
               <h3>Join Us!</h3>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-              <div className="joinbutton">
-                <RegisterCard setModal={setModal} />
-                {modal && <Register setModal={setModal} />}
-              </div>
+              <button className="joinbutton" onClick={()=>setModal(true)}>
+                <h2>Register</h2>
+              </button>
+              {modal && <RegisterCollege setModal={setModal} />}
             </div>
           </div>
         </div>

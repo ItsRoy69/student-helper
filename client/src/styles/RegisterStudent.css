@@ -1,5 +1,5 @@
-.cardbody{
-    width: 900px;
+.studentcardbody{
+    width: 850px;
     height: 450px;
     background-color: #EFF5FF;
     display: flex;
@@ -10,13 +10,13 @@
     border-radius: 20px;
     box-shadow: 0px 0px 20px 20px #6d6d6d;
     flex-direction: row;
+    position: sticky;
 }
 
-.backdrop-con{
+.backdrop-student{
     position: absolute;
-    top: 160vh;
-    left: 0;
-    width: 100%;
+    top: 5vh;
+    width: 60vw;
     height: 80%;
     background-color: rgba(0,0,0,0.5);
     display: flex;
@@ -49,9 +49,10 @@
   height: 235px;
 }
 
-.rightcard{
+.registerstudentcard{
   background-color: #F4FAEB;
-  width: 400px;
+  width: 500px;
+  height: 300px;
   border-radius: 25px;
   box-shadow: 1px 5px 15px #D1DFBB;
   box-shadow: 1px 5px 5px #B4DC70;
@@ -60,26 +61,23 @@
   border-style: solid;
 }
 
-.rightname, .rightcollege, .rightmail, .rightpassword{
+
+.rightname, .rightcollege, .rightemail, .rightpassword{
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  padding-top: 20px;
 }
 
-.rightcardside{
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.registerstudentcardside{
+  padding: 20px;
 }
 
-.rightcard h4{
+.registerstudentcardside h4{
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-size: 16px;
   font-weight: lighter;
+  padding: 1px;
 }
 
 .naming{
@@ -90,25 +88,22 @@
   height: 20px;
 }
 
-.rightyear{
-  display: flex;
-  flex-direction: column;
-  padding-left: 22px;
-}
-
 .yearbuttons{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 320px;
 }
 
 .yearbutton{
   background-color: #688F23;
-  width: 60px;
+  width: 70px;
   height: 30px;
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #2D3D0F;
+  text-align: center;
+  padding: 5px;
 }
 
 .yearbutton:hover{
@@ -120,27 +115,11 @@
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-weight: lighter;
-  text-align: center;
-  padding: 3px;
-}
-
-.rightbuttons{
-  margin-top: 280px;
-  margin-left: -300px;
-  display: flex;
-  flex-direction: row;
-}
-
-.rightpassword{
-  padding-left: 5px;
 }
 
 .buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 200px;
-  height: 30px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 .signinbutton, .signupbutton{
@@ -150,18 +129,17 @@
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #2D3D0F;
+  text-align: center;
+  padding: 5px;
 }
 
 .signinbutton:hover, .signupbutton:hover{
   background-color: #8ABE30;
 }
 
-
 .signinbutton h1, .signupbutton h1{
   font-size: 15px;
   font-family: 'Acme', sans-serif;
   color: #ffff;
   font-weight: lighter;
-  padding-top: 6px;
-  padding-left: 10px;
 }

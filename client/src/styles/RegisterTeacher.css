@@ -1,0 +1,88 @@
+.teachercardbody{
+    width: 900px;
+    height: 450px;
+    background-color: #EFF5FF;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    border: 2px solid #688F23;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 20px #6d6d6d;
+    flex-direction: row;
+}
+
+.backdrop-teacher{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbuttons{
+  margin-top: 280px;
+  margin-left: -300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightpassword{
+  padding-left: 5px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 30px;
+}
+
+.signinbutton, .accessbutton{
+  background-color: #688F23;
+  width: 105px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #2D3D0F;
+}
+
+.signinbutton:hover, .accessbutton:hover{
+  background-color: #8ABE30;
+}
+
+.signinbutton h1, .accessbutton h1{
+  font-size: 15px;
+  font-family: 'Acme', sans-serif;
+  color: #ffff;
+  font-weight: lighter;
+}
+
+.registerteachercard{
+  background-color: #F4FAEB;
+  width: 500px;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 1px 5px 15px #D1DFBB;
+  box-shadow: 1px 5px 5px #B4DC70;
+  border-width: 1px;
+  border-color: #B4DC70;
+  border-style: solid;
+}
+
+.registerteachercardside{
+  padding: 20px;
+}
+
+.registerteachercardside h4{
+  font-family: 'Acme', sans-serif;
+  color: #2D3D0F;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 1px;
+}
