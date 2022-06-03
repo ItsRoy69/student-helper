@@ -1,71 +1,91 @@
-.leftbannerheader h1{
-  font-size: 62px;
-  font-family: 'Acme', sans-serif;
-  color: #2D3D0F;
-  font-weight: lighter;
-}
-
-.leftbannerheader p {
-    font-family: 'Acme', sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    color: #8C8C99;
-    margin-top: 1.5rem;
-}
-
-.bannerhead {
-    display: flex;
-    flex-direction: row;
-}
-
-.bannerheading{
-  padding-top: 120px;
-  margin-left: 10px;
-  display: flex;
-}
-
-.leftbannerhead{
-  width: 55vw;
-}
-
-.leftbannerhead img{
-  width: 50vw;
-}
-
-.leftbannerheader{
-  margin-top: -200px;
-  margin-left: 200px;
-  width: 30vw;
-}
-
-.rightbannerhead img{
-  width: 40vw;
-  margin-left: 20px;
-}
-
-.facultybodycard{
+.banner {
   display: flex;
   flex-direction: row;
+  height: 90vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.facultybannerbg{
+  position: relative;
+  width: 50%;
+}
+
+.banner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -60vw;
+  width: 500px;
+}
+
+.banner-content h1 {
+  font-family: 'Acme', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #2D3D0F;
+  font-size: 60px;
+}
+
+.banner-content h3 {
+  font-family: 'Acme', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #8C8C99;
+}
+
+.banner-image {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image img {
+  width: 450px;
+  height: auto;
+  margin-top: 15vh;
+}
+
+.facultybody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facultybodycard{  
   background-color: #F4FBF4;
   width: 80vw;
   height: 200px;
-  margin-bottom: 10vh;
-  margin-left: 10vw;
   border-radius: 25px;
   box-shadow: 1px 5px 15px #D1DFBB;
   box-shadow: 1px 5px 5px #B4DC70;
-  align-items: center;
-  text-align: center;
-  padding-top: 50px;
   border-width: 1px;
   border-color: #B4DC70;
   border-style: solid;
+  margin:10px;
 }
+
+.facultybodydp img{
+  width: 200px;
+  height: 150px;
+}
+
+.facultybodydetails{
+  display: flex;
+  flex-direction: row;  
+  padding: 20px; 
+  width: 70vw;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .facultybodycard .icon {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
 }
 
 .facultybodycard p{
@@ -75,30 +95,17 @@
   font-weight: lighter;
 }
 
-.facultybodyinfom{
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-}
-
 .facultybodyinfo{
   display: flex;
   flex-direction: column;
-  margin-left: 35vw;
-  margin-bottom: 50px;
 }
 
-.facultybodydp {
-  margin-bottom: 50px;
-  margin-left: 100px;
-}
-
-.facultybodydp img{
-  width: 30vh;
+.facultybodyinfom{
+  display: flex;
+  line-height: 0;
 }
 
 .facultyname, .facultysubject, .facultynum{
-  margin-top: 10px;
   cursor: pointer;
+  padding-top: 14px;
 }
