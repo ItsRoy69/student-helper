@@ -98,12 +98,17 @@
 
 /* Midbanner */
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1200px;
-  margin: 0 auto;
+  width: 1000px;
 }
 
 .about-head{
@@ -131,6 +136,8 @@
   cursor: pointer;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .boxpic img{
@@ -143,67 +150,52 @@
   cursor: pointer;
 }
 
-.box a{
+.about-boxes a{
   color: #2D3D0F;
   text-decoration: none;
+}
+
+.about_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-boxes{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 2vw;
+  justify-content: space-between;
 }
 
-.joinmidbanner{
+.joinbanner{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 2vw;
 }
 
-.joinmidbannerpic img{
+.joinbannerpic img{
   width: 430px;
   height: 400px;
 }
 
-.joinmidbannerdetails{
+.joinbannerdetails{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.joinmidbannerdetails h3{
+.joinbannerdetails h3{
   font-size: 35px;
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
 }
 
-.joinmidbannerdetails p{
+.joinbannerdetails p{
   font-family: 'Acme', sans-serif;
   font-size: 20px;
   color: #8C8C99;
 }
-
-.joinbutton{
-  background-color: #688F23;
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-.joinbutton:hover{
-  background-color: #8ABE30;
-}
-
-.joimidbannerbutton h2{
-  font-size: 20px;
-  font-family: 'Acme', sans-serif;
-  color: #FCFFF9;
-  font-weight: lighter;
-}
-
 
 
 .team{

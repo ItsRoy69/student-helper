@@ -5,16 +5,16 @@
     display: flex;
     padding: 40px;
     align-items: center;
-    justify-content: center;
     font-family: 'Acme', sans-serif;
     border: 2px solid #688F23;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 20px #6d6d6d;
+    flex-direction: row;
 }
 
 .backdrop-con{
     position: absolute;
-    top: 170vh;
+    top: 160vh;
     left: 0;
     width: 100%;
     height: 80%;
@@ -22,49 +22,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* filter: blur(20px); */
 }
 
-.cardbanner{
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  padding-top: 10vh;
-}
-
-.leftcardbanner{
+.leftcard{
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.leftcardbanner h1{
+.leftcard h1{
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-size: 35px;
   font-weight: lighter;
 }
 
-.leftcardbannerpara h1{
+.leftcardpara h1{
   font-family: 'Acme', sans-serif;
   font-size: 20px;
   line-height: 28px;
   color: #8C8C99;
-  margin-top: 1.5rem;
 }
 
-.leftbannerpic{
-  width: 109px;
+.leftpic{
+  width: 209px;
   height: 235px;
-  margin-left: -300px;
-  margin-right: 200px;
-  margin-top: 120px;
 }
 
 .rightcard{
   background-color: #F4FAEB;
   width: 400px;
-  margin-left: 20px;
   border-radius: 25px;
   box-shadow: 1px 5px 15px #D1DFBB;
   box-shadow: 1px 5px 5px #B4DC70;
@@ -73,10 +60,19 @@
   border-style: solid;
 }
 
-.rightcardname, .rightcardcollege, .rightcardmail, .rightcardpassword{
+.rightname, .rightcollege, .rightmail, .rightpassword{
   display: flex;
   flex-direction: row;
-  padding-top: 20px;
+  justify-content:space-evenly;
+}
+
+.rightcardside{
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .rightcard h4{
@@ -84,8 +80,6 @@
   color: #2D3D0F;
   font-size: 16px;
   font-weight: lighter;
-  margin-left: 20px;
-  margin-right: 10px;
 }
 
 .naming{
@@ -96,23 +90,25 @@
   height: 20px;
 }
 
-.rightcardyear{
-  padding-top: 20px;
+.rightyear{
+  display: flex;
+  flex-direction: column;
+  padding-left: 22px;
 }
+
 .yearbuttons{
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
+  justify-content: space-around;
 }
 
 .yearbutton{
   background-color: #688F23;
-  width: 50px;
+  width: 60px;
   height: 30px;
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #2D3D0F;
-  margin-left: 20px;
 }
 
 .yearbutton:hover{
@@ -124,8 +120,8 @@
   font-family: 'Acme', sans-serif;
   color: #2D3D0F;
   font-weight: lighter;
-  padding-top: 6px;
-  padding-left: 10px;
+  text-align: center;
+  padding: 3px;
 }
 
 .rightbuttons{
@@ -135,6 +131,18 @@
   flex-direction: row;
 }
 
+.rightpassword{
+  padding-left: 5px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 30px;
+}
+
 .signinbutton, .signupbutton{
   background-color: #688F23;
   width: 65px;
@@ -142,7 +150,6 @@
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #2D3D0F;
-  margin-left: 20px;
 }
 
 .signinbutton:hover, .signupbutton:hover{
