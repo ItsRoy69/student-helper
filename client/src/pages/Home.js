@@ -151,7 +151,7 @@ const Home = () => {
             </div>
             <div className="teamdetailcard">
               <div className="teamdetailabout">
-                <h4>Anjushree Sen</h4>
+                <h4>Lorem Ipsum</h4>
                 <p>Web Developer</p>
                 <div className="values-list">
                   <button className="icon" href={"/"}>
@@ -174,7 +174,7 @@ const Home = () => {
             </div>
             <div className="teamdetailcard">
               <div className="teamdetailabout">
-                <h4>Anjushree Sen</h4>
+                <h4>Lorem Ipsum</h4>
                 <p>Web Developer</p>
                 <div className="values-list">
                   <button className="icon" href={"/"}>
@@ -197,7 +197,7 @@ const Home = () => {
             </div>
             <div className="teamdetailcard">
               <div className="teamdetailabout">
-                <h4>Anjushree Sen</h4>
+                <h4>Lorem Ipsum</h4>
                 <p>Web Developer</p>
                 <div className="values-list">
                   <button className="icon" href={"/"}>
@@ -220,7 +220,7 @@ const Home = () => {
             </div>
             <div className="teamdetailcard">
               <div className="teamdetailabout">
-                <h4>Anjushree Sen</h4>
+                <h4>Lorem Ipsum</h4>
                 <p>Web Developer</p>
                 <div className="values-list">
                   <button className="icon" href={"/"}>
