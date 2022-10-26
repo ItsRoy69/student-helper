@@ -4,6 +4,7 @@ require('dotenv').config();
 const conn = require('./db');
 const studentRoutes = require('./routes/students');
 const facultyRoutes = require('./routes/faculties');
+const universityRoutes = require('./routes/universities');
 
 const app = express();
 app.use(express.json());
@@ -13,6 +14,7 @@ app.use(cors());
 //routes
 app.use("/api/student", studentRoutes);
 app.use("/api/faculty", facultyRoutes);
+app.use("/api/university", universityRoutes);
 
 //default route
 app.get('/', (req, res) => {

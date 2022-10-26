@@ -48,7 +48,7 @@ router.post("/login", loginValidation, async (req, res) => {
         const validPassword = await bcrypt.compare(req.body.password, faculty.password);
         if (!validPassword) return res.status(401).send('Invalid Password.');
 
-        const token = Faculty.generateAuthToken();
+        const token = faculty.generateAuthToken();
         res.status(200).send({ data: token, message: 'Login successful.' });
     }catch(error) {
         console.log(error);
