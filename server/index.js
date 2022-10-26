@@ -3,6 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 const conn = require('./db');
 const studentRoutes = require('./routes/students');
+const facultyRoutes = require('./routes/faculties');
 
 const app = express();
 app.use(express.json());
@@ -10,7 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 //routes
-app.use("/api", studentRoutes);
+app.use("/api/student", studentRoutes);
+app.use("/api/faculty", facultyRoutes);
 
 //default route
 app.get('/', (req, res) => {
