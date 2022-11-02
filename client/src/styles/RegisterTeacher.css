@@ -31,3 +31,10 @@
   flex-direction: row;
 }
 
+
+
+.rightdept{
+  display: flex;
+  flex-direction: row;
+}
+

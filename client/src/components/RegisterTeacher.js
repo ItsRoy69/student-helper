@@ -17,14 +17,35 @@ export const RegisterTeacher = ({ setModal }) => {
           <img className="leftpic" src={bannerpic} alt="images"/>            
         </div>
         <div className='registerteachercard'>
-          <div className='registerteachercardside'>
             <div className='rightname'>
               <h4>Name</h4>
               <input className='naming' name="name" placeholder='Enter your name' type="text" />
             </div>
             <div className='rightcollege'>
               <h4>College</h4>
-              <input className='naming' name="college" placeholder='Enter your College name' type="text" />
+              <input className='naming' name="college" list="browsers" placeholder='Enter your College name' type="text" />
+              <datalist id="browsers">
+                <option value="Jadavpur University" />
+                <option value="IEM Kolkata" />
+                <option value="UEM Kolkata" />
+                <option value="Heritage Institute of Technology, Kolkata" />
+                <option value="MAKAUT" />
+                <option value="Narula Institute of Technology, Kolkata" />
+                <option value="Amity University, Kolkata" />
+                <option value="Techno India Salt Lake" />
+                <option value="Adamas University" />
+                <option value="Sister Nivedita University" />
+                <option value="Brainware University, Kolkata" />
+                <option value="Bengal Institute of Technology, Kolkata" />
+                <option value="JISCE" />
+                <option value="RCC Institute of Information Technology, Kolkata" />
+                <option value="Budge Budge Institute of Technology, Kolkata" />
+                <option value="MCKV Institute of Engineering Howrah, Kolkata" />
+              </datalist>  
+            </div>
+            <div className='rightdept'>
+              <h4>Department</h4>
+              <input className='naming' name="department" placeholder='Enter your Department name' type="text" />
             </div>
             <div className='rightemail'>
               <h4>Mail ID</h4>
@@ -42,7 +63,6 @@ export const RegisterTeacher = ({ setModal }) => {
                 <h1>Request Access</h1>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
