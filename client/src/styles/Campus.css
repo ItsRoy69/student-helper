@@ -43,14 +43,6 @@
   margin-left: 10vw;
 }
 
-.midbannerbox{
-  border-color: #F4FAEB;
-  border-radius: 25px;
-  border-width: 20px;
-  border-style: solid;
-  box-shadow: 1px 10px 10px 10px #D1DFBB;
-}
-
 .routeMap{
   width:74vw;
   height:450px;
@@ -59,4 +51,8 @@
   border-color: #A1CB5A;
   border-style: solid;
   box-shadow: 1px 10px 10px 10px #D1DFBB;
+}
+
+.midbanner{
+  margin-left: 12vw;
 }
